@@ -1,45 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agricultura Moderna</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #28a745;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        .container {
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-        }
-        .text {
-            margin-bottom: 20px;
-            line-height: 1.5;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agricultura Moderna</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+  }
+  .text-container {
+    flex: 1;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .footer {
+    font-size: 14px;
+    color: gray;
+  }
+  .image-container {
+    flex: 1;
+    text-align: center;
+  }
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
 </head>
 <body>
-    <header>
-        <h1>Agricultura Moderna</h1>
-    </header>
-    <div class="container">
-        <img src= "AGRINHO.jpg" alt="Roda pé verde" style="display: block; margin: 0 auto; max-width: 100%;">
-        <div class="text">
-            <p>Agricultura moderna é um conjunto de práticas inovadoras que resultam em maior produção rural. Exemplos são a adoção do plantio mecanizado, do sistema de irrigação por gotejamento e das simulações estatísticas que avaliam se uma área é propícia para determinado plantio.</p>
-        </div>
-        <div class="text">
-            <p>A agricultura moderna surge pela percepção de que o modelo anterior de produção agrícola vem se tornando menos eficiente em médio e longo prazos. Inclusive, já existem muitos sinais disso, emitidos a partir das quedas de produtividades devido às formas convencionais de produção, originadas por problemas advindos da utilização do solo de forma intensiva, gerando processos erosivos frequentes e queda brusca da fertilidade.</p>
-        </div>
+
+<div class="container">
+  <div class="text-container">
+    <div class="title">Agricultura Moderna</div>
+    <div class="subtitle">Práticas Inovadoras para Maior Produção Rural</div>
+    <div class="content">
+      Agricultura moderna é um conjunto de práticas inovadoras que resultam em maior produção rural. Exemplos são a adoção do plantio mecanizado, do sistema de irrigação por gotejamento e das simulações estatísticas que avaliam se uma área é propícia para determinado plantio.
+      <br><br>
+      A agricultura moderna surge pela percepção de que o modelo anterior de produção agrícola vem se tornando menos eficiente em médio e longo prazos. Inclusive, já existem muitos sinais disso, emitidos a partir das quedas de produtividades devido às formas convencionais de produção, originadas por problemas advindos da utilização do solo de forma intensiva, gerando processos erosivos frequentes e queda brusca da fertilidade.
     </div>
+    <div class="footer" style="color: green;">Rodapé Médio</div>
+  </div>
+  <div class="image-container">
+    <img class="image" src="caminho_para_sua_imagem.jpg" alt="Imagem">
+    <div class="footer" style="color: green;">Rodapé Médio</div>
+  </div>
+</div>
+
 </body>
 </html>
