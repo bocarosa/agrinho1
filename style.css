@@ -9,8 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 45px solid green;
-    border-bottom: 45px solid green;
+
   }
   .text-container {
     flex: 1;
@@ -46,4 +45,11 @@ body {
   .image {
     max-width: 100%;
     height: 860px;
+  }
+
+  header{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
