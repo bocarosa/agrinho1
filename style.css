@@ -5,8 +5,7 @@ body {
   }
   .container {
     width: 100%;
-    height: 98vh;
-    display: flex;
+    
     align-items: center;
     justify-content: space-between;
 
@@ -44,7 +43,6 @@ body {
   }
   .image {
     max-width: 100%;
-    height: 860px;
   }
 
   header{
@@ -58,3 +56,13 @@ body {
     background-color: darkseagreen;
   }
   
+
+  @media screen and (min-width:1024px) {
+    .container{
+      display: flex;
+    }
+
+    .image {
+      height: 860px;
+    }
+  }
